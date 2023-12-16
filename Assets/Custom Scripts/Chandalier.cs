@@ -31,14 +31,14 @@ public class Chandalier : Trap
                 if(rayInfo.collider != null){
                     Debug.Log("RAY INFO HAS INFO!");
                     if(rayInfo.collider.tag == "Player"){
-                        Debug.DrawRay(this.transform.position, Vector3.down*100, Color.red);
+                        //Debug.DrawRay(this.transform.position, Vector3.down*100, Color.red);
                         Debug.Log("PLAYER DETECTED!!!!!!!!");
                         playerDetected = true;
                     }
                 }
             }
             else{
-                Debug.DrawRay(this.transform.position, Vector3.down*100, Color.green);
+                //Debug.DrawRay(this.transform.position, Vector3.down*100, Color.green);
             }
         }
 

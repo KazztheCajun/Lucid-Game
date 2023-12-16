@@ -13,7 +13,11 @@ public class Trap : MonoBehaviour
    [SerializeField] protected Rigidbody2D physics;
 
    public virtual void Start(){
-    damageOnCollide = 10;
+    damageOnCollide = 20;
     physics = GetComponent<Rigidbody2D>();
+   }
+
+   public float getDamageOnCollide(){
+    return damageOnCollide;
    }
 }
