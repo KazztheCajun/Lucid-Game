@@ -12,8 +12,11 @@ public class Player : MonoBehaviour
     public float speed;
     [Range(0,200)]
     public float jump;
+    [Range(0, 10)]
+    public float attackCooldown;
     [HideInInspector]
     public bool isLucid;
+    public GameObject attackPrefab;
 
 
     // Private Variables
@@ -22,6 +25,9 @@ public class Player : MonoBehaviour
     private Rigidbody2D physics;
     private float fearMod;
     private Vector3 fly;
+    private LucidBar lucidBar;
+    private Transform attackSpawn;
+    private float timer;
 
     // Start is called before the first frame update
     void Start()
@@ -31,12 +37,14 @@ public class Player : MonoBehaviour
         physics.drag = 0;
         physics.velocity = Vector2.right * speed;
         fearMod = 0;
-
+        lucidBar = GameObject.Find("LucidBar").GetComponent<LucidBar>();
+        attackSpawn = transform.GetChild(0);
     }
 
     // Update is called once per frame
     void Update()
     {
+        timer += Time.deltaTime;
         switch (state)
         {
             case PlayerState.DREAM:
@@ -100,6 +108,12 @@ public class Player : MonoBehaviour
         {
             ChangeState("dream");
             MaintainSpeed();
+        }
+
+        if(Input.GetButtonDown("Attack") && timer >= attackCooldown)
+        {
+            Instantiate(attackPrefab, attackSpawn.position, Quaternion.identity);
+            timer = 0;
         }
 
         // if(Input.GetButtonDown("Jump"))
