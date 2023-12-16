@@ -21,7 +21,7 @@ public class Projectile : MonoBehaviour
         
     }
 
-    void OnCollisionEnter2D(Collider2D other)
+    void OnCollisionEnter2D(Collision2D other)
     {
         if(other.gameObject.tag == "Floor")
         {
@@ -30,7 +30,7 @@ public class Projectile : MonoBehaviour
 
         if(other.gameObject.tag == "Destructable")
         {
-            other.GetComponent<Destructable>().DestroyObject();
+            other.gameObject.GetComponent<Destructable>().DestroyObject();
         }
     }
 }
