@@ -8,4 +8,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/CreditsScene.unity
+    guid: 24906865ab4734d138da15a5b52609ee
+  - enabled: 1
+    path: Assets/Scenes/AAronScene.unity
+    guid: 676c9cb71100f7642970f670baa64a36
+  - enabled: 1
+    path: Assets/Scenes/BenScene.unity
+    guid: dff53bc3794b34122a365902fdbbefc0
+  - enabled: 1
+    path: Assets/Scenes/StartScreen.unity
+    guid: bfe1fc58d45484bacbe53a77cafc0670
   m_configObjects: {}
