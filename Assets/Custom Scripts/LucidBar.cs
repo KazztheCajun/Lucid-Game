@@ -26,6 +26,14 @@ public class LucidBar : Bar
 
     }
 
+    public float getChangeRate(){
+        return lucidityChangeRate; 
+    }
+
+    public void setChangeRate(float newChangeRate){
+        lucidityChangeRate = newChangeRate;
+    }
+
 
 /*
 
