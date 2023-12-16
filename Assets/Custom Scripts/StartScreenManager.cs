@@ -8,6 +8,7 @@ public class StartScreenManager : MonoBehaviour
  
     public void OnStartGameButtonClicked(){
         Debug.Log("Start button clicked!");
+        SceneManager.LoadScene("AwakeScene");
     }
 
     public void OnCreditsButtonClicked(){
@@ -31,5 +32,10 @@ public class StartScreenManager : MonoBehaviour
     public void AAronButtonClicked(){
         Debug.Log("AAron button clicked!");
         SceneManager.LoadScene("AAronScene");
+    }
+
+    public void SergioButtonClicked(){
+        Debug.Log("Sergio button clicked!");
+        SceneManager.LoadScene("Sergio Scene");
     }
 }

@@ -20,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/StartScreen.unity
     guid: bfe1fc58d45484bacbe53a77cafc0670
+  - enabled: 1
+    path: Assets/Scenes/AwakeScene.unity
+    guid: 12b4eb26fce6f403a92cb8f40dfd2c36
+  - enabled: 1
+    path: Assets/Scenes/Sergio Scene.unity
+    guid: 21a666e7e352b024587547b0e90fcee5
   m_configObjects: {}
