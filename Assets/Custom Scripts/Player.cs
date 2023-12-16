@@ -12,28 +12,37 @@ public class Player : MonoBehaviour
     public float speed;
     [Range(0,200)]
     public float jump;
+    [HideInInspector]
+    public bool isLucid;
+
 
     // Private Variables
     private PlayerState state;
     public Transform target;
     private Rigidbody2D physics;
+    private float fearMod;
+    private Vector3 fly;
 
     // Start is called before the first frame update
     void Start()
     {
         ChangeState("dream");
         physics = GetComponent<Rigidbody2D>();
+        physics.drag = 0;
+        physics.velocity = Vector2.right * speed;
+        fearMod = 0;
+
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
         switch (state)
         {
-            case PlayerState.IDLE:
-                break;
             case PlayerState.DREAM:
-                DreamWalk();
+                DreamCheck();
+                break;
+            case PlayerState.IDLE:
                 break;
             case PlayerState.LUCID:
                 LucidControl();
@@ -44,21 +53,85 @@ public class Player : MonoBehaviour
         }
     }
 
+    void FixedUpdate()
+    {
+        switch (state)
+        {
+            case PlayerState.DREAM:
+                DreamWalk();
+                break;
+            case PlayerState.IDLE:
+            case PlayerState.LUCID:
+            case PlayerState.DEAD:
+                // Change to dead model
+                break;
+        }
+    }
+
+    private void DreamCheck()
+    {
+        if(Input.GetButtonDown("ToggleLucid"))
+        {
+            ChangeState("lucid");
+            physics.velocity = Vector2.zero;
+        }
+    }
+
     private void DreamWalk()
     {
-        Debug.Log(Vector3.Distance(transform.position, target.position));
-        if (Vector3.Distance(transform.position, target.position) <= .1)
+        //Debug.Log(Vector3.Distance(transform.position, target.position));
+        //Debug.Log(physics.velocity);
+        if (Vector3.Distance(transform.position, target.position) <= .2)
         {
             ChangeState("idle");
+            physics.velocity = Vector2.zero;
             return;
         }
 
-        Vector3 vel = Vector3.right * speed * Time.fixedDeltaTime;
+        //Vector3 vel = Vector3.right * speed * Time.fixedDeltaTime;
         //Vector3 pos = Vector3.MoveTowards(transform.position, target.position, vel);
-        physics.MovePosition(transform.position + vel);
+
+        MaintainSpeed();
     }
 
     private void LucidControl()
+    {
+        if(Input.GetButtonDown("ToggleLucid"))
+        {
+            ChangeState("dream");
+            MaintainSpeed();
+        }
+
+        // if(Input.GetButtonDown("Jump"))
+        // {
+        //     LucidJump();
+        // }
+
+        fly = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical")) * (speed - fearMod) * Time.fixedDeltaTime;
+        physics.MovePosition(transform.position + fly);
+    }
+
+    public void LucidJump()
+    {
+        physics.AddForce(transform.up * (jump * fearMod));
+    }
+
+    public void DreamJump()
+    {
+        physics.AddForce(transform.up * jump, ForceMode2D.Impulse);
+    }
+
+    public void WalkRight()
+    {
+        physics.velocity = Vector2.right * speed;
+    }
+
+    public void MaintainSpeed()
+    {
+        physics.velocity = new Vector2(speed, physics.velocity.y);
+    }
+
+    public void IncreaseFear(float fear)
     {
 
     }
@@ -77,9 +150,11 @@ public class Player : MonoBehaviour
                 break;
             case "dream":
                 state = PlayerState.DREAM;
+                isLucid = false;
                 break;
             case "lucid":
                 state = PlayerState.LUCID;
+                isLucid = true;
                 break;
             case "dead":
                 state = PlayerState.DEAD;
@@ -88,6 +163,6 @@ public class Player : MonoBehaviour
                 Debug.Log($"Invalid Player State Transition: {newState}");
                 break;
         }
-        Debug.Log($"Player stat is now: {state}");
+        Debug.Log($"Player state is now: {state}");
     }
 }
