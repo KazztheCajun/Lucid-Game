@@ -24,10 +24,6 @@ public class LucidBar : Bar
         //Actually update the current lucidity.
         adjustCurrentBarValue(amountToDrain);
 
-        //Update the visuals of the bar.
-        Vector3 newLucidBarScale = barFillVisual.transform.localScale;
-        newLucidBarScale.x = computeBarFillScale();
-        barFillVisual.transform.localScale = newLucidBarScale;
     }
 
 

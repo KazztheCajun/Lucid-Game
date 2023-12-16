@@ -39,5 +39,10 @@ public class Bar : MonoBehaviour
     public void setCurrentBarValue(float newBarValue){
         float temp = Mathf.Clamp(newBarValue, minBarValue, maxBarValue);
         this.currentBarValue = temp;
+
+        //Update the visuals of the bar to reflect the new value.
+        Vector3 newBarScale = barFillVisual.transform.localScale;
+        newBarScale.x = computeBarFillScale();
+        barFillVisual.transform.localScale = newBarScale;
     }
 }
