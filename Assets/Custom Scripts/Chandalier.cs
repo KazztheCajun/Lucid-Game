@@ -10,13 +10,13 @@ public class Chandalier : Trap
     RaycastHit2D rayInfo;
 
     [SerializeField] bool playerDetected;
-    public override void Start()
+    protected override void Start()
     {
         base.Start();
         rayDirection = new Ray(this.transform.position, Vector3.down);
         rayInfo = new RaycastHit2D();
         playerDetected = false;
-        speed = 4;
+        speed = 20;
     }
 
     // Update is called once per frame

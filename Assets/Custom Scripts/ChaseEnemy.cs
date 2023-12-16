@@ -9,6 +9,7 @@ public class ChaseEnemy : Enemy
     {
         base.Start();
         speed = 5f;
+        physics.velocity = Vector2.right * speed;
     }
 
     // Update is called once per frame
