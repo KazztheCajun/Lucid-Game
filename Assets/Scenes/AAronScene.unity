@@ -677,6 +677,37 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1125720325
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1125720326}
+  m_Layer: 0
+  m_Name: AttackSpawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1125720326
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1125720325}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.754, y: 0.203, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1126013153}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1126013152
 GameObject:
   m_ObjectHideFlags: 0
@@ -708,7 +739,8 @@ Transform:
   m_LocalPosition: {x: -18.05, y: -0.14, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1125720326}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -807,6 +839,7 @@ MonoBehaviour:
   attackCooldown: 2
   isLucid: 0
   attackPrefab: {fileID: 2080615950153258507, guid: 7ec04ecb060644245b28265a26e90ea7, type: 3}
+  attackSpawn: {fileID: 1125720326}
   target: {fileID: 1974251431}
 --- !u!50 &1126013157
 Rigidbody2D:
@@ -1191,17 +1224,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Projectile
       objectReference: {fileID: 0}
+    - target: {fileID: 2080615950153258507, guid: 7ec04ecb060644245b28265a26e90ea7, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7968369195555129730, guid: 7ec04ecb060644245b28265a26e90ea7, type: 3}
       propertyPath: m_RootOrder
       value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7968369195555129730, guid: 7ec04ecb060644245b28265a26e90ea7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.975986
+      value: -17.288
       objectReference: {fileID: 0}
     - target: {fileID: 7968369195555129730, guid: 7ec04ecb060644245b28265a26e90ea7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.018274745
+      value: 0.08
       objectReference: {fileID: 0}
     - target: {fileID: 7968369195555129730, guid: 7ec04ecb060644245b28265a26e90ea7, type: 3}
       propertyPath: m_LocalPosition.z

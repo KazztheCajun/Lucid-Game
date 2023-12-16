@@ -17,6 +17,7 @@ public class Player : MonoBehaviour
     [HideInInspector]
     public bool isLucid;
     public GameObject attackPrefab;
+    public Transform attackSpawn;
 
 
     // Private Variables
@@ -26,8 +27,8 @@ public class Player : MonoBehaviour
     private float fearMod;
     private Vector3 fly;
     private LucidBar lucidBar;
-    private Transform attackSpawn;
     private float timer;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -37,8 +38,8 @@ public class Player : MonoBehaviour
         physics.drag = 0;
         physics.velocity = Vector2.right * speed;
         fearMod = 0;
-        lucidBar = GameObject.Find("LucidBar").GetComponent<LucidBar>();
-        attackSpawn = transform.GetChild(0);
+        //lucidBar = GameObject.Find("LucidBar").GetComponent<LucidBar>();
+        timer = attackCooldown;
     }
 
     // Update is called once per frame
@@ -110,7 +111,7 @@ public class Player : MonoBehaviour
             MaintainSpeed();
         }
 
-        if(Input.GetButtonDown("Attack") && timer >= attackCooldown)
+        if(Input.GetButton("Attack") && timer >= attackCooldown)
         {
             Instantiate(attackPrefab, attackSpawn.position, Quaternion.identity);
             timer = 0;
