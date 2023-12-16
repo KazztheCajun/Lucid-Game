@@ -701,6 +701,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5179215896846681210, guid: d0aa3cecf3f6d4904b4151c2f2176252, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6837480011903445118, guid: d0aa3cecf3f6d4904b4151c2f2176252, type: 3}
+      propertyPath: m_Simulated
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8864157342212826954, guid: d0aa3cecf3f6d4904b4151c2f2176252, type: 3}
       propertyPath: m_Name
       value: ChandelierTrap
