@@ -408,7 +408,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c346cba2d8cfa4c7699f6f8803ffdb60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageDealtOnHit: 0
+  damageOnCollide: 0
   speed: 0
   physics: {fileID: 0}
 --- !u!1001 &1388622776
@@ -681,6 +681,63 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1001 &1285660967228030908
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4474047566009686324, guid: 84bbda850b84841aa8df830e71a25613, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4474047566009686324, guid: 84bbda850b84841aa8df830e71a25613, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.5467973
+      objectReference: {fileID: 0}
+    - target: {fileID: 4474047566009686324, guid: 84bbda850b84841aa8df830e71a25613, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.9213145
+      objectReference: {fileID: 0}
+    - target: {fileID: 4474047566009686324, guid: 84bbda850b84841aa8df830e71a25613, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.08264451
+      objectReference: {fileID: 0}
+    - target: {fileID: 4474047566009686324, guid: 84bbda850b84841aa8df830e71a25613, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4474047566009686324, guid: 84bbda850b84841aa8df830e71a25613, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4474047566009686324, guid: 84bbda850b84841aa8df830e71a25613, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4474047566009686324, guid: 84bbda850b84841aa8df830e71a25613, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4474047566009686324, guid: 84bbda850b84841aa8df830e71a25613, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4474047566009686324, guid: 84bbda850b84841aa8df830e71a25613, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4474047566009686324, guid: 84bbda850b84841aa8df830e71a25613, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6688078771215025380, guid: 84bbda850b84841aa8df830e71a25613, type: 3}
+      propertyPath: m_Name
+      value: Dentist
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 84bbda850b84841aa8df830e71a25613, type: 3}
 --- !u!1001 &1892693667624263152
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -739,6 +796,10 @@ PrefabInstance:
     - target: {fileID: 5671204831185199977, guid: db721aed0916d4345858c48d43d0da26, type: 3}
       propertyPath: m_Name
       value: ChaserEnemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 5671204831185199977, guid: db721aed0916d4345858c48d43d0da26, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db721aed0916d4345858c48d43d0da26, type: 3}
@@ -832,7 +893,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1916354169571332385, guid: 379d19f3369e241e0a375ebe090e501a, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1916354169571332385, guid: 379d19f3369e241e0a375ebe090e501a, type: 3}
       propertyPath: m_TagString
