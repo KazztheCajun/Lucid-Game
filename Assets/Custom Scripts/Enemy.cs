@@ -10,8 +10,10 @@ public class Enemy : DamageDealer
         base.Start();
    }
 
-   protected virtual void ChangeState(string newState){
-
+   protected override void Update(){
+        base.Update();
    }
+
+
 
 }

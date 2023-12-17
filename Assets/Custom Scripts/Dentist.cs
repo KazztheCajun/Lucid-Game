@@ -11,10 +11,23 @@ public class Dentist : Enemy
 
     [SerializeField] private GameObject drillPrefab;
 
-    [SerializeField] private float timeSpentInCurrentState;
+    [SerializeField] private Animator animator;
+
     [SerializeField] private float timeToSpendInIdle;
     [SerializeField] private float timeToSpendInSummoning;
     [SerializeField] private float timeToSpendInLaughing;
+
+    [SerializeField] private int numDrillsToSummon;
+    [SerializeField] private int minDrillsToSummon;
+    [SerializeField] private int maxDrillsToSummon;
+    [SerializeField] private int currentDrillsSummoned;
+    [SerializeField] private float drillSummonCooldown;
+    [SerializeField] private float timeRemainingUntilNextDrill;
+
+    [SerializeField] private float currentDistanceFromDentist;
+    [SerializeField] private float distanceBetweenEachDrill;
+
+
 
     [SerializeField] private SpriteRenderer body;
 
@@ -23,13 +36,18 @@ public class Dentist : Enemy
     // Start is called before the first frame update
     protected override void Start()
     {
+        base.Start();
         ChangeState("idle");
+        minDrillsToSummon = 4;
+        maxDrillsToSummon = 10;
+        drillSummonCooldown = 0.2f;
+        distanceBetweenEachDrill = 2f;
     }
 
     // Update is called once per frame
-    void Update()
+    protected override void Update()
     {
-        timeSpentInCurrentState += Time.deltaTime;
+        base.Update();
         switch(currentState){
             case DentistState.IDLE:
                 if(timeSpentInCurrentState > timeToSpendInIdle){
@@ -45,11 +63,28 @@ public class Dentist : Enemy
                 if(timeSpentInCurrentState > timeToSpendInSummoning){
                     ChangeToRandomDifferentState();
                 }
+
+                //update the cooldown for summoning another drill.
+                timeRemainingUntilNextDrill -= Time.deltaTime;
+                if(timeRemainingUntilNextDrill <= 0 && numDrillsToSummon >= 0){
+                    //summon a drill!
+                    currentDistanceFromDentist += distanceBetweenEachDrill;
+                    Instantiate(drillPrefab, 
+                        new Vector3(this.transform.position.x + currentDistanceFromDentist, 
+                        this.transform.position.y, 
+                        this.transform.position.z), 
+                        Quaternion.identity);
+                    timeRemainingUntilNextDrill = drillSummonCooldown;
+                    numDrillsToSummon -= 1;
+                }
             break;
         }
 
         if(Input.GetKeyDown(KeyCode.R)){
             ChangeToRandomDifferentState();
+        }
+        if(Input.GetKeyDown(KeyCode.S)){
+            ChangeState("summoning");
         }
     }
 
@@ -77,15 +112,23 @@ public class Dentist : Enemy
             case "idle":
                 currentState = DentistState.IDLE;
                 body.color = Color.blue;
+                animator.Play("Dentist2Idle");
                 break;
             case "laughing":
                 currentState = DentistState.LAUGHING;
                 laughSoundEffect.Play();
                 body.color = Color.green;
+                animator.Play("Dentist2Laugh");
                 break;
             case "summoning":
                 currentState = DentistState.SUMMONING;
                 body.color = Color.gray;
+                numDrillsToSummon = Random.Range(minDrillsToSummon, maxDrillsToSummon);
+                Debug.Log("Summoning " + numDrillsToSummon + " drills");
+                currentDrillsSummoned = 0;
+                timeRemainingUntilNextDrill = drillSummonCooldown;
+                currentDistanceFromDentist = 3f;
+                animator.Play("Dentist2Summon");
                 break;
             default:
                 Debug.Log($"Invalid Dentist State Transition: {newState}");

@@ -20,9 +20,9 @@ public class Chandalier : Trap
     }
 
     // Update is called once per frame
-    void Update()
+    protected override void Update()
     {
-      
+        base.Update();
         //If we haven't seen the player yet... check out for the player!
         if(!playerDetected){
             rayInfo = Physics2D.Raycast(transform.position, Vector2.down, Mathf.Infinity);

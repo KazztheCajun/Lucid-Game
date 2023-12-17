@@ -1,0 +1,3687 @@
+fileFormatVersion: 2
+guid: 6de728cbf92704f78a90f4a983228565
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dentist2_0
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 895
+        width: 34
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f76ecc145dda4c69b2d1028e2365c48
+      internalID: -1456580593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_1
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 895
+        width: 149
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd48097f0f4274c2aac887cd9ae7fb14
+      internalID: 933641018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_2
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 945
+        width: 104
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b85dad2d83de42f58359ef03073cba4
+      internalID: -1441377944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_3
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 940
+        width: 110
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bef5c9d8848f04fb284b17e7e84ce291
+      internalID: 228216235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_4
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 895
+        width: 33
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c3c7d76ad30141d0b8618926a0040e3
+      internalID: -1650895879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_5
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 895
+        width: 35
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c412f18c3c09441c5b50d2c6e0c1cfd3
+      internalID: 2048338016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_6
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 895
+        width: 35
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10cf2885022d648a2916588c63284418
+      internalID: 1385315241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_7
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 895
+        width: 34
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0890eae642fc64d148d2128bdb3ae2f7
+      internalID: 2020337197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_8
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 945
+        width: 130
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63e673b53876a4cde90b00a7bee0e3b5
+      internalID: -1119563728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_9
+      rect:
+        serializedVersion: 2
+        x: 2062
+        y: 940
+        width: 141
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b6c28ce6a8fb437ba9e55b06c936bec
+      internalID: -946031561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_10
+      rect:
+        serializedVersion: 2
+        x: 2301
+        y: 899
+        width: 37
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27fd48578d90d4c2fb4a4f4e7a89bda0
+      internalID: -74452874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_11
+      rect:
+        serializedVersion: 2
+        x: 2425
+        y: 899
+        width: 45
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b28990bf6ac26491599a3f515cc7c094
+      internalID: 1663341093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_12
+      rect:
+        serializedVersion: 2
+        x: 2557
+        y: 899
+        width: 37
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef212e2b74ceb40c3952de3f7ed7576e
+      internalID: -284620607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_13
+      rect:
+        serializedVersion: 2
+        x: 2677
+        y: 899
+        width: 50
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eab962cf070954e53b5f28b97c53ca2e
+      internalID: 190520190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_14
+      rect:
+        serializedVersion: 2
+        x: 3053
+        y: 945
+        width: 141
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e950672550a4b49c9a0e3f23b88d7de6
+      internalID: 1533107517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_15
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 940
+        width: 143
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d37e6b4988ed40fbac1374669ad9639
+      internalID: 1927033461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_16
+      rect:
+        serializedVersion: 2
+        x: 3422
+        y: 902
+        width: 56
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 312504a0424d04a18bfdf03a668554ac
+      internalID: -12990683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_17
+      rect:
+        serializedVersion: 2
+        x: 3546
+        y: 895
+        width: 56
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ae5621375ffb493eba6f647726e787a
+      internalID: 1472666348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_18
+      rect:
+        serializedVersion: 2
+        x: 3678
+        y: 895
+        width: 61
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef28653429eae4a1a8c11dcba54230b2
+      internalID: -1300377908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_19
+      rect:
+        serializedVersion: 2
+        x: 3806
+        y: 901
+        width: 57
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e350db79961c04a608aaf0db08d0bb9d
+      internalID: 15972647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_20
+      rect:
+        serializedVersion: 2
+        x: 3930
+        y: 899
+        width: 56
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a11b58997b843c3a48679df2f6c89a
+      internalID: -346326372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_21
+      rect:
+        serializedVersion: 2
+        x: 4060
+        y: 899
+        width: 55
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4475c907eda264e90b7be44dc00702aa
+      internalID: -1888395802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_22
+      rect:
+        serializedVersion: 2
+        x: 4189
+        y: 949
+        width: 106
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0ac09c3c68664abb9412b71eadf2a6d
+      internalID: -423661439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_23
+      rect:
+        serializedVersion: 2
+        x: 4301
+        y: 945
+        width: 142
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a658e25a7c19d42e5b8e7544be052a66
+      internalID: 1895154095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_24
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 766
+        width: 34
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84fb2fdde125b43db90e30d91caec829
+      internalID: -721335520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_25
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 766
+        width: 34
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e011441a48364b51880d4ad64d8f3a1
+      internalID: 68852951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_26
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 816
+        width: 104
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a69c13f196a421a9cd9088a3046552
+      internalID: -1827343635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_27
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 814
+        width: 141
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 204379d265b9c4ac1a940f66070aa7f4
+      internalID: 986991017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_28
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 766
+        width: 32
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b8ce9553cc61489b82fd12ce41e925a
+      internalID: 1539256970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_29
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 766
+        width: 33
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02be1c7e6fdb145cba5739b9ca8c7370
+      internalID: -1253621155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_30
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 766
+        width: 33
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2c214e36ecc4b2699985db3442be24
+      internalID: -1859600062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_31
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 766
+        width: 34
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe0b56b5deed4b708cba49a4bdc20b0
+      internalID: -797917288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_32
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 821
+        width: 130
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c177430af56340acbc7b56f1e27be6a
+      internalID: -878185658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_33
+      rect:
+        serializedVersion: 2
+        x: 2062
+        y: 816
+        width: 109
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6669d4be13cf744aebbe9cad1c1607aa
+      internalID: -151942520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_34
+      rect:
+        serializedVersion: 2
+        x: 2297
+        y: 771
+        width: 50
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a13a3987ae632422bb2256f3ba573b3b
+      internalID: -2075814484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_35
+      rect:
+        serializedVersion: 2
+        x: 2429
+        y: 771
+        width: 37
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bdbb662457984582ae607043228e4e5
+      internalID: -844855312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_36
+      rect:
+        serializedVersion: 2
+        x: 2553
+        y: 771
+        width: 46
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2aa4acd511db4f9fbeca268eaf666c9
+      internalID: -1795499293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_37
+      rect:
+        serializedVersion: 2
+        x: 2686
+        y: 771
+        width: 36
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb85f6f93b0a44f295a156b31a4a895
+      internalID: -1404814429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_38
+      rect:
+        serializedVersion: 2
+        x: 3053
+        y: 816
+        width: 141
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af8f9491b447c45a29f817c165c0c1c5
+      internalID: -1767427683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_39
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 814
+        width: 111
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8751d4ea801ce4b89b75a70b680a0161
+      internalID: 1366862675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_40
+      rect:
+        serializedVersion: 2
+        x: 3422
+        y: 771
+        width: 52
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd927cc09d387442cb3f4f163880ceb0
+      internalID: -382351451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_41
+      rect:
+        serializedVersion: 2
+        x: 3550
+        y: 771
+        width: 56
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 136094657c8ab4d3fbfa2f1a601f0943
+      internalID: 1989504367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_42
+      rect:
+        serializedVersion: 2
+        x: 3674
+        y: 773
+        width: 56
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f250261f86e14c1399d20f72394e3aa
+      internalID: 2002427127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_43
+      rect:
+        serializedVersion: 2
+        x: 3798
+        y: 766
+        width: 60
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 737c8a8c6e10f434485631c7c89ba081
+      internalID: 383467621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_44
+      rect:
+        serializedVersion: 2
+        x: 3933
+        y: 766
+        width: 58
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae291aa015f24650b7bced7f7e2f8dc
+      internalID: 72294847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_45
+      rect:
+        serializedVersion: 2
+        x: 4058
+        y: 773
+        width: 57
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f346c19e027c46b7b42a3d701e672cc
+      internalID: 1038062541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_46
+      rect:
+        serializedVersion: 2
+        x: 4189
+        y: 821
+        width: 106
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e8e121eb7772484db8dc4acc91addbb
+      internalID: 1945229765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_47
+      rect:
+        serializedVersion: 2
+        x: 4301
+        y: 816
+        width: 109
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 852c71439a0f648c399b10dd35529952
+      internalID: 1249223269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 638
+        width: 86
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec1a38fd7d7ef4c1aa033fb8d7e2c00e
+      internalID: -8794970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_49
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 638
+        width: 46
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7acb6f3cc277747a7a1bdfe4079699a9
+      internalID: 565037612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_50
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 689
+        width: 104
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da5fda8fa907e432f8b1652c88aceb54
+      internalID: 935806672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_51
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 686
+        width: 21
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9faa0f794cb164454b7605f6ae07412d
+      internalID: 1174119151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_52
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 686
+        width: 134
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1114c6a8f10e4a9fb453c81d7ec7f4f
+      internalID: 1069868024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_53
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 638
+        width: 45
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 212fe6472571c4519a3ffb29ef440051
+      internalID: -630375101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_54
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 638
+        width: 45
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f70974a5ec939451db138eba17bfb93f
+      internalID: 551661221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_55
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 638
+        width: 45
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bd955fec51e64aed96a0cc99dbfcb5d
+      internalID: -482440985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_56
+      rect:
+        serializedVersion: 2
+        x: 1554
+        y: 638
+        width: 45
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f5d428f8ca5f4323bd7daebec4fc588
+      internalID: 718110446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_57
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 686
+        width: 131
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cd067f770e85412296285e504390610
+      internalID: -763755139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_58
+      rect:
+        serializedVersion: 2
+        x: 2062
+        y: 682
+        width: 21
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2f4a0f9869f74eb2ac82236a521bd00
+      internalID: 743004953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_59
+      rect:
+        serializedVersion: 2
+        x: 2082
+        y: 682
+        width: 132
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c7fbf0321534df7ae1b1dc7df18dfa
+      internalID: 776875996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_60
+      rect:
+        serializedVersion: 2
+        x: 2297
+        y: 642
+        width: 45
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e6c93da58af4a058e47166c72d42c0
+      internalID: 1779741843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_61
+      rect:
+        serializedVersion: 2
+        x: 2425
+        y: 647
+        width: 45
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89312c94ecab24087912a042bf67e328
+      internalID: -544009426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_62
+      rect:
+        serializedVersion: 2
+        x: 2553
+        y: 642
+        width: 46
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f924c44c388ef48239dba8dad7e7f8e2
+      internalID: 1054486170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_63
+      rect:
+        serializedVersion: 2
+        x: 2681
+        y: 647
+        width: 46
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02773f027c72e48769faf53ac5f37d94
+      internalID: -1012867691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_64
+      rect:
+        serializedVersion: 2
+        x: 3057
+        y: 693
+        width: 141
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 153da9ed02cd142bf8f82c910acaab9c
+      internalID: -303182274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_65
+      rect:
+        serializedVersion: 2
+        x: 3205
+        y: 689
+        width: 90
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2495c2e8422c748849f512ac6cec14f5
+      internalID: -1944249204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_66
+      rect:
+        serializedVersion: 2
+        x: 3426
+        y: 658
+        width: 48
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20dc98fcb79344a26a15a6bba00ee57e
+      internalID: -1274308411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_67
+      rect:
+        serializedVersion: 2
+        x: 3557
+        y: 645
+        width: 45
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a60cb6fcfc0c94e4083c7a4fd2d6a827
+      internalID: 1410306968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_68
+      rect:
+        serializedVersion: 2
+        x: 3681
+        y: 653
+        width: 49
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d405974b85aa84f0c938ec51a85a1a51
+      internalID: 395994343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_69
+      rect:
+        serializedVersion: 2
+        x: 3806
+        y: 658
+        width: 48
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 346153e932a2a4f778468af0cb874ac3
+      internalID: 821250283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_70
+      rect:
+        serializedVersion: 2
+        x: 3933
+        y: 642
+        width: 45
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c9a9f8e9fe14adfaa3238e06bd307f
+      internalID: -177199062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_71
+      rect:
+        serializedVersion: 2
+        x: 4060
+        y: 653
+        width: 50
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d55eea5400b4a1b807b4cd692d7237
+      internalID: -1274809139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_72
+      rect:
+        serializedVersion: 2
+        x: 4185
+        y: 689
+        width: 106
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98fe2c92a2327459298a5f8707b23548
+      internalID: 282080573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_73
+      rect:
+        serializedVersion: 2
+        x: 4297
+        y: 686
+        width: 22
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cb4368ae8b9345a2bda908d364b6708
+      internalID: 862950180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_74
+      rect:
+        serializedVersion: 2
+        x: 4317
+        y: 686
+        width: 131
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fae6e0ab5f9642fc859602998dad045
+      internalID: -1377676955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_75
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 510
+        width: 45
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae9c62e48e8cc49e2ab09529fa1f41f8
+      internalID: -297492721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_76
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 510
+        width: 46
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b7c6b74220574e77920a5c3262fe95d
+      internalID: 1101965443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_77
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 562
+        width: 104
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 948bf81bcc47f44db8195966948d9d92
+      internalID: -173713505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_78
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 558
+        width: 90
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c83b2dfa7453f4c21ad31a3d0ecb5fd8
+      internalID: -1221852858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_79
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 510
+        width: 45
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 495264333df2c41f794a1755a93721ba
+      internalID: -1117241130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_80
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 510
+        width: 45
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f15853abb9548d589d9cf878d2f19a
+      internalID: -1243108908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_81
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 510
+        width: 45
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d7a76d1f691a4607b2b6dc435e336ce
+      internalID: -401598860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_82
+      rect:
+        serializedVersion: 2
+        x: 1554
+        y: 510
+        width: 45
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c56f4ca8cb0f43268deb3db0a685753
+      internalID: 1934368220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_83
+      rect:
+        serializedVersion: 2
+        x: 1930
+        y: 558
+        width: 128
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e2b283d4b0634ec0a70bb89f974a205
+      internalID: 757765502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_84
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 553
+        width: 91
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d4659912e8ea4c64a92f64e6b611d00
+      internalID: -1123317954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_85
+      rect:
+        serializedVersion: 2
+        x: 2297
+        y: 519
+        width: 45
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c881cef229ae6435f9495a7fa98fee37
+      internalID: 1551839631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_86
+      rect:
+        serializedVersion: 2
+        x: 2425
+        y: 516
+        width: 45
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d006763b06204dd3a320873501b43e9
+      internalID: 1660268745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_87
+      rect:
+        serializedVersion: 2
+        x: 2553
+        y: 519
+        width: 46
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96cdbe715f1654a008f67f57c3273eaf
+      internalID: -2129198436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_88
+      rect:
+        serializedVersion: 2
+        x: 2681
+        y: 516
+        width: 46
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10eba754752cd4949b5fde7da25dfaaa
+      internalID: 2094957061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_89
+      rect:
+        serializedVersion: 2
+        x: 3053
+        y: 558
+        width: 142
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a3328bb3012401c9f0f152b054c02a
+      internalID: 857105228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_90
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 553
+        width: 22
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8d6cab47850f4219b541b2cf2ed1d94
+      internalID: 374482049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_91
+      rect:
+        serializedVersion: 2
+        x: 3222
+        y: 553
+        width: 132
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c9ecfd6fe39f4d25b2ea633264a44d6
+      internalID: 1080259675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_92
+      rect:
+        serializedVersion: 2
+        x: 3426
+        y: 525
+        width: 41
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07a1755edca13419fb4109cf04ff64b7
+      internalID: -1664883858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_93
+      rect:
+        serializedVersion: 2
+        x: 3553
+        y: 514
+        width: 46
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2246c8cdb962e422398782d23e9d0344
+      internalID: -1283556795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_94
+      rect:
+        serializedVersion: 2
+        x: 3681
+        y: 529
+        width: 45
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64d7609fed3024cd1801a7532d869bcc
+      internalID: 973822479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_95
+      rect:
+        serializedVersion: 2
+        x: 3813
+        y: 525
+        width: 41
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 938b651e58b8f4364ad51986dd7efc57
+      internalID: 1667263785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_96
+      rect:
+        serializedVersion: 2
+        x: 3937
+        y: 516
+        width: 45
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ea0bef8054348039b6e5120a56192e
+      internalID: -1350426065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_97
+      rect:
+        serializedVersion: 2
+        x: 4065
+        y: 529
+        width: 45
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19cec37c0f5dd4222956e521c18b4fcd
+      internalID: 1704613891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_98
+      rect:
+        serializedVersion: 2
+        x: 4189
+        y: 569
+        width: 106
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab077ccb65cf438995a51fa0e711059
+      internalID: 791799743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_99
+      rect:
+        serializedVersion: 2
+        x: 4301
+        y: 565
+        width: 89
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d165c98241094e4d9e13979c123f761
+      internalID: -1374511500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_100
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 382
+        width: 58
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45621ef380b534b2790d6f91589bdb64
+      internalID: 2077450698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_101
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 382
+        width: 63
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7449488d49ef445c4b200de049bf286b
+      internalID: 313101343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_102
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 382
+        width: 58
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c056700ead7d443329f511ac2fe46f33
+      internalID: 349614238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_103
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 382
+        width: 58
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e8bb5378e5ae41cdb9d7c8512c5ae45
+      internalID: -467977572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_104
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 445
+        width: 131
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad03fa5f4a8584fa8b0e457b1c93e168
+      internalID: -1395240433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_105
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 440
+        width: 141
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 546ab387a9faf48ff9b675722b11c3cb
+      internalID: 509901682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_106
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 390
+        width: 55
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6abfadce9d0df4ce4b96970b7a5f08dd
+      internalID: -217240748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_107
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 390
+        width: 54
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2060c670ffc5d47cfab70b8d29ead0ff
+      internalID: -2145039964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_108
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 390
+        width: 53
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1926583c1b9fb411c82c868ff40932ed
+      internalID: -229760897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_109
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 390
+        width: 52
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3059245b6478544ccb32e2e558fd7c14
+      internalID: 588202264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_110
+      rect:
+        serializedVersion: 2
+        x: 1921
+        y: 449
+        width: 141
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45bea82d7dd594dbcb898d5b30eea042
+      internalID: 2044436812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_111
+      rect:
+        serializedVersion: 2
+        x: 2073
+        y: 445
+        width: 137
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43a28cd8e29534375af5d427f17ee23c
+      internalID: -1049234460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_112
+      rect:
+        serializedVersion: 2
+        x: 2269
+        y: 323
+        width: 180
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e577f3dfa15e04b7a825a2cae1bbf609
+      internalID: 1816113776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_113
+      rect:
+        serializedVersion: 2
+        x: 2462
+        y: 323
+        width: 180
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d91f387f45d8343cbb875cde3d61309b
+      internalID: -1385428967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_114
+      rect:
+        serializedVersion: 2
+        x: 2653
+        y: 323
+        width: 180
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5137dfaa44aa643efa19529c158ea39e
+      internalID: -565371977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_115
+      rect:
+        serializedVersion: 2
+        x: 2846
+        y: 323
+        width: 180
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06d234232b45a42ac9719b7aa82603c4
+      internalID: 1517994932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_116
+      rect:
+        serializedVersion: 2
+        x: 3049
+        y: 445
+        width: 130
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e24ad135082484e27aa629ad210b753a
+      internalID: 57187767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_117
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 253
+        width: 57
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b16dc147d1594a369dcddca41553cba
+      internalID: -1340844603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_118
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 253
+        width: 58
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52f3d269ea4364b0e822d40d83d2a3ca
+      internalID: -1962044271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_119
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 258
+        width: 61
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e427afbc94f04228a35b80ea1af1a5d
+      internalID: 682224907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_120
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 253
+        width: 57
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b173a89ffc7b4723af44a7b7ee6d124
+      internalID: 1967592583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_121
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 262
+        width: 52
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77470e5b8c0e54321a904bbad842230b
+      internalID: -314050045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_122
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 262
+        width: 52
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 706dcc5abe7e3452289054742bff5af2
+      internalID: 1128387832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_123
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 262
+        width: 54
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1bbc4465d4594841b65163a48dae721
+      internalID: 1361215936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_124
+      rect:
+        serializedVersion: 2
+        x: 1509
+        y: 262
+        width: 54
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbd2b86d8be1647198f0cd4beb5fdf26
+      internalID: 1583181524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_125
+      rect:
+        serializedVersion: 2
+        x: 2073
+        y: 305
+        width: 110
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aebd0eac7749e441286a3a4901b22800
+      internalID: 1275189991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_126
+      rect:
+        serializedVersion: 2
+        x: 3053
+        y: 358
+        width: 202
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d10a2709ae454d37a14a6c5859cfa26
+      internalID: 2004887140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_127
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 305
+        width: 131
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 207462ecc7352415881f5f9b8113dd5a
+      internalID: -128954762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_128
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 301
+        width: 109
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42fa8c058d34d48de9ec70449c995676
+      internalID: 950964691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_129
+      rect:
+        serializedVersion: 2
+        x: 1921
+        y: 310
+        width: 141
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1aea5bc5fbda49f9929b8c56a1c1110
+      internalID: -326425107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_130
+      rect:
+        serializedVersion: 2
+        x: 2269
+        y: 129
+        width: 180
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2e62c13b725549f195c8e82a89d951d
+      internalID: 380912142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_131
+      rect:
+        serializedVersion: 2
+        x: 2462
+        y: 129
+        width: 180
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ba6ced4fc574d6fba2ac9ecf695392
+      internalID: -1896515861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_132
+      rect:
+        serializedVersion: 2
+        x: 2653
+        y: 129
+        width: 180
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b5eafe0c91764b05a0c015d8e4a35a9
+      internalID: -1625175744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_133
+      rect:
+        serializedVersion: 2
+        x: 2846
+        y: 129
+        width: 180
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 955a1aec96ecf46d69b23358405cbf70
+      internalID: 499709158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_134
+      rect:
+        serializedVersion: 2
+        x: 3053
+        y: 253
+        width: 145
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb1d7ef795ec048c4af1fc56b56fb74a
+      internalID: 394361113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_135
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 129
+        width: 39
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 670d167d21c5546829682bd7df462c10
+      internalID: 1814260587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_136
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 129
+        width: 38
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d78ea55c76b421bbe0b69d684956aa
+      internalID: 1112026446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_137
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 129
+        width: 38
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 453a0bbed2b094f34aea08b470b53245
+      internalID: -665681350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_138
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 127
+        width: 37
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c7214cdd50cb4da8acd794397e07f3c
+      internalID: -1371494148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_139
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 186
+        width: 131
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 656e05c82fb0645649af5ddc0a718bcb
+      internalID: -1130602072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_140
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 182
+        width: 22
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0905aac32f3634ce98e139ab9703c3df
+      internalID: 1085487854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_141
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 182
+        width: 134
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ddc02d9ea09545229c9c147ad21a872
+      internalID: -375046333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_142
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 149
+        width: 45
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cec10306a24034e4fa52b7ee96c0811d
+      internalID: 1482412116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_143
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 162
+        width: 45
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e4680805946c4a4fba3616183ea59ac
+      internalID: 449190381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_144
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 149
+        width: 45
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16e72733a06641dc9e8c20c8db6c6eb
+      internalID: -990178140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_145
+      rect:
+        serializedVersion: 2
+        x: 1554
+        y: 162
+        width: 45
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7e49275bcfc945b9919621285aae20b
+      internalID: -133509758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_146
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 190
+        width: 141
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00e84f62c0005418fa65e0ac09a88cd2
+      internalID: 1458214791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_147
+      rect:
+        serializedVersion: 2
+        x: 2069
+        y: 186
+        width: 21
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55f9520d301774ebd93c9d3f0ca4f6cc
+      internalID: 693696139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_148
+      rect:
+        serializedVersion: 2
+        x: 2088
+        y: 186
+        width: 135
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a97b62e846e54e56be570029e53921c
+      internalID: -1876780529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_149
+      rect:
+        serializedVersion: 2
+        x: 3049
+        y: 173
+        width: 201
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ac568a63bd504661ab4016afa936c9f
+      internalID: -1637229356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_150
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 0
+        width: 45
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d80fbf083beb468e9db419a5cc433a7
+      internalID: -1971192907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_151
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 2
+        width: 46
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2665de49226a4a969565cf01fe517bf
+      internalID: -643743664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_152
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 0
+        width: 45
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4fbe1ea004044f1a861d5ca7ee4a3af
+      internalID: -585452014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_153
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 2
+        width: 45
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be31fe67be2d946b9a8954eaabf44b18
+      internalID: -1290893757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_154
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 45
+        width: 131
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eff5635f908c4daebad85c9d3141396
+      internalID: 1305043059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_155
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 40
+        width: 89
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b0857a85c80e44619c638e8eca57cdd
+      internalID: 1143112383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_156
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 21
+        width: 45
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b42d42f8a773443ba37f111e467f1d0
+      internalID: 1946177427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_157
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 34
+        width: 45
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21aa631fa09d34d87a96f0e4801295ee
+      internalID: 150119315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_158
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 21
+        width: 45
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 958660b5628cd4fc88b82d808cdfd509
+      internalID: -1498933813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_159
+      rect:
+        serializedVersion: 2
+        x: 1554
+        y: 34
+        width: 45
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c5831f063be4a4cb5a4e86453e1677
+      internalID: 535618962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_160
+      rect:
+        serializedVersion: 2
+        x: 1921
+        y: 58
+        width: 141
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8d7261af532b43979498f7cb388f962
+      internalID: -614699539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dentist2_161
+      rect:
+        serializedVersion: 2
+        x: 2073
+        y: 53
+        width: 89
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a9196c0e13b14256bafb9c2b7a789e8
+      internalID: -1552975536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Dentist2_97: 1704613891
+      Dentist2_24: -721335520
+      Dentist2_34: -2075814484
+      Dentist2_38: -1767427683
+      Dentist2_3: 228216235
+      Dentist2_52: 1069868024
+      Dentist2_87: -2129198436
+      Dentist2_141: -375046333
+      Dentist2_127: -128954762
+      Dentist2_101: 313101343
+      Dentist2_84: -1123317954
+      Dentist2_81: -401598860
+      Dentist2_158: -1498933813
+      Dentist2_151: -643743664
+      Dentist2_64: -303182274
+      Dentist2_126: 2004887140
+      Dentist2_1: 933641018
+      Dentist2_15: 1927033461
+      Dentist2_92: -1664883858
+      Dentist2_61: -544009426
+      Dentist2_80: -1243108908
+      Dentist2_9: -946031561
+      Dentist2_48: -8794970
+      Dentist2_120: 1967592583
+      Dentist2_11: 1663341093
+      Dentist2_21: -1888395802
+      Dentist2_65: -1944249204
+      Dentist2_110: 2044436812
+      Dentist2_79: -1117241130
+      Dentist2_119: 682224907
+      Dentist2_44: 72294847
+      Dentist2_35: -844855312
+      Dentist2_111: -1049234460
+      Dentist2_7: 2020337197
+      Dentist2_139: -1130602072
+      Dentist2_145: -133509758
+      Dentist2_77: -173713505
+      Dentist2_31: -797917288
+      Dentist2_91: 1080259675
+      Dentist2_123: 1361215936
+      Dentist2_122: 1128387832
+      Dentist2_74: -1377676955
+      Dentist2_22: -423661439
+      Dentist2_103: -467977572
+      Dentist2_156: 1946177427
+      Dentist2_27: 986991017
+      Dentist2_147: 693696139
+      Dentist2_45: 1038062541
+      Dentist2_66: -1274308411
+      Dentist2_132: -1625175744
+      Dentist2_12: -284620607
+      Dentist2_128: 950964691
+      Dentist2_67: 1410306968
+      Dentist2_108: -229760897
+      Dentist2_55: -482440985
+      Dentist2_142: 1482412116
+      Dentist2_125: 1275189991
+      Dentist2_159: 535618962
+      Dentist2_25: 68852951
+      Dentist2_93: -1283556795
+      Dentist2_51: 1174119151
+      Dentist2_53: -630375101
+      Dentist2_36: -1795499293
+      Dentist2_73: 862950180
+      Dentist2_75: -297492721
+      Dentist2_121: -314050045
+      Dentist2_32: -878185658
+      Dentist2_116: 57187767
+      Dentist2_62: 1054486170
+      Dentist2_129: -326425107
+      Dentist2_2: -1441377944
+      Dentist2_143: 449190381
+      Dentist2_0: -1456580593
+      Dentist2_78: -1221852858
+      Dentist2_54: 551661221
+      Dentist2_83: 757765502
+      Dentist2_102: 349614238
+      Dentist2_144: -990178140
+      Dentist2_82: 1934368220
+      Dentist2_100: 2077450698
+      Dentist2_56: 718110446
+      Dentist2_20: -346326372
+      Dentist2_157: 150119315
+      Dentist2_76: 1101965443
+      Dentist2_118: -1962044271
+      Dentist2_14: 1533107517
+      Dentist2_153: -1290893757
+      Dentist2_96: -1350426065
+      Dentist2_133: 499709158
+      Dentist2_63: -1012867691
+      Dentist2_138: -1371494148
+      Dentist2_136: 1112026446
+      Dentist2_6: 1385315241
+      Dentist2_85: 1551839631
+      Dentist2_98: 791799743
+      Dentist2_26: -1827343635
+      Dentist2_109: 588202264
+      Dentist2_115: 1517994932
+      Dentist2_104: -1395240433
+      Dentist2_131: -1896515861
+      Dentist2_130: 380912142
+      Dentist2_40: -382351451
+      Dentist2_134: 394361113
+      Dentist2_140: 1085487854
+      Dentist2_42: 2002427127
+      Dentist2_113: -1385428967
+      Dentist2_33: -151942520
+      Dentist2_57: -763755139
+      Dentist2_94: 973822479
+      Dentist2_88: 2094957061
+      Dentist2_41: 1989504367
+      Dentist2_114: -565371977
+      Dentist2_68: 395994343
+      Dentist2_107: -2145039964
+      Dentist2_135: 1814260587
+      Dentist2_137: -665681350
+      Dentist2_71: -1274809139
+      Dentist2_58: 743004953
+      Dentist2_16: -12990683
+      Dentist2_86: 1660268745
+      Dentist2_99: -1374511500
+      Dentist2_148: -1876780529
+      Dentist2_124: 1583181524
+      Dentist2_60: 1779741843
+      Dentist2_37: -1404814429
+      Dentist2_17: 1472666348
+      Dentist2_28: 1539256970
+      Dentist2_95: 1667263785
+      Dentist2_10: -74452874
+      Dentist2_105: 509901682
+      Dentist2_50: 935806672
+      Dentist2_89: 857105228
+      Dentist2_19: 15972647
+      Dentist2_46: 1945229765
+      Dentist2_150: -1971192907
+      Dentist2_69: 821250283
+      Dentist2_70: -177199062
+      Dentist2_117: -1340844603
+      Dentist2_106: -217240748
+      Dentist2_152: -585452014
+      Dentist2_8: -1119563728
+      Dentist2_29: -1253621155
+      Dentist2_149: -1637229356
+      Dentist2_23: 1895154095
+      Dentist2_13: 190520190
+      Dentist2_49: 565037612
+      Dentist2_155: 1143112383
+      Dentist2_160: -614699539
+      Dentist2_5: 2048338016
+      Dentist2_161: -1552975536
+      Dentist2_18: -1300377908
+      Dentist2_47: 1249223269
+      Dentist2_154: 1305043059
+      Dentist2_43: 383467621
+      Dentist2_72: 282080573
+      Dentist2_90: 374482049
+      Dentist2_112: 1816113776
+      Dentist2_4: -1650895879
+      Dentist2_30: -1859600062
+      Dentist2_39: 1366862675
+      Dentist2_146: 1458214791
+      Dentist2_59: 776875996
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

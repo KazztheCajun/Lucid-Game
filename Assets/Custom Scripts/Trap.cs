@@ -9,4 +9,8 @@ public class Trap : DamageDealer
         base.Start();
    }
 
+   protected override void Update(){
+        base.Update();
+   }
+
 }
