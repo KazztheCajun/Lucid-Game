@@ -18,6 +18,7 @@ public class Player : MonoBehaviour
     public bool isLucid;
     public GameObject attackPrefab;
     public Transform attackSpawn;
+    public GameObject gameOverScreen;
 
 
     // Private Variables
@@ -33,13 +34,15 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        ChangeState("dream");
+        gameOverScreen.SetActive(false);
         physics = GetComponent<Rigidbody2D>();
         physics.drag = 0;
         physics.velocity = Vector2.right * speed;
         fearMod = 0;
-        //lucidBar = GameObject.Find("LucidBar").GetComponent<LucidBar>();
+        lucidBar = GameObject.Find("LucidBar").GetComponent<LucidBar>();
         timer = attackCooldown;
+        fly = Vector2.zero;
+        ChangeState("dream");
     }
 
     // Update is called once per frame
@@ -122,8 +125,13 @@ public class Player : MonoBehaviour
         //     LucidJump();
         // }
 
-        fly = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical")) * (speed - fearMod) * Time.fixedDeltaTime;
+        fly = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical")) * (speed - fearMod) * Time.fixedDeltaTime;
         physics.MovePosition(transform.position + fly);
+
+        if(lucidBar.getCurrentBarValue() <= 0)
+        {
+            ChangeState("dead");
+        }
     }
 
     public void LucidJump()
@@ -146,6 +154,17 @@ public class Player : MonoBehaviour
         physics.velocity = new Vector2(speed, physics.velocity.y);
     }
 
+    public void Stop()
+    {
+        physics.gravityScale = 0;
+        physics.velocity = Vector2.zero;
+    }
+
+    public void IsDead()
+    {
+        ChangeState("dead");
+    }
+
     public void IncreaseFear(float fear)
     {
 
@@ -166,13 +185,20 @@ public class Player : MonoBehaviour
             case "dream":
                 state = PlayerState.DREAM;
                 isLucid = false;
+                physics.gravityScale = 3;
+                lucidBar.setChangeRate(3);
                 break;
             case "lucid":
                 state = PlayerState.LUCID;
                 isLucid = true;
+                physics.gravityScale = 0;
+                lucidBar.setChangeRate(-10);
                 break;
             case "dead":
                 state = PlayerState.DEAD;
+                isLucid = false;
+                Stop();
+                gameOverScreen.SetActive(true);
                 break;
             default:
                 Debug.Log($"Invalid Player State Transition: {newState}");
