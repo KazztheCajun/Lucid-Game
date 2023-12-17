@@ -16,6 +16,10 @@ public class Dentist : Enemy
     [SerializeField] private float timeToSpendInSummoning;
     [SerializeField] private float timeToSpendInLaughing;
 
+    [SerializeField] private SpriteRenderer body;
+
+    [SerializeField] private AudioSource laughSoundEffect;
+
     // Start is called before the first frame update
     protected override void Start()
     {
@@ -25,12 +29,22 @@ public class Dentist : Enemy
     // Update is called once per frame
     void Update()
     {
+        timeSpentInCurrentState += Time.deltaTime;
         switch(currentState){
             case DentistState.IDLE:
-            break;
+                if(timeSpentInCurrentState > timeToSpendInIdle){
+                    ChangeToRandomDifferentState();
+                }
+                break;
             case DentistState.LAUGHING:
+                if(timeSpentInCurrentState > timeToSpendInLaughing){
+                    ChangeToRandomDifferentState();
+                }
             break;
             case DentistState.SUMMONING:
+                if(timeSpentInCurrentState > timeToSpendInSummoning){
+                    ChangeToRandomDifferentState();
+                }
             break;
         }
 
@@ -62,18 +76,23 @@ public class Dentist : Enemy
         {
             case "idle":
                 currentState = DentistState.IDLE;
+                body.color = Color.blue;
                 break;
             case "laughing":
                 currentState = DentistState.LAUGHING;
+                laughSoundEffect.Play();
+                body.color = Color.green;
                 break;
             case "summoning":
                 currentState = DentistState.SUMMONING;
+                body.color = Color.gray;
                 break;
             default:
                 Debug.Log($"Invalid Dentist State Transition: {newState}");
                 break;
         }
         Debug.Log($"Dentist state is now: {currentState}");
+        timeSpentInCurrentState = 0f;
     }
 
     //Overloaded version that switches based on a DentistState
