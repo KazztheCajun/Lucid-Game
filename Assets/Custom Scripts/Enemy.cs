@@ -9,4 +9,9 @@ public class Enemy : DamageDealer
    protected override void Start(){
         base.Start();
    }
+
+   protected virtual void ChangeState(string newState){
+
+   }
+
 }
