@@ -37,10 +37,10 @@ public class Dentist : Enemy
     {
         base.Start();
         ChangeState("idle");
-        minDrillsToSummon = 4;
-        maxDrillsToSummon = 10;
+        minDrillsToSummon = 7;
+        maxDrillsToSummon = 14;
         drillSummonCooldown = 0.2f;
-        distanceBetweenEachDrill = 2f;
+        distanceBetweenEachDrill = 2.5f;
     }
 
     // Update is called once per frame

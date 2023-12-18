@@ -43,6 +43,7 @@ GameObject:
   - component: {fileID: 2651830268046763302}
   - component: {fileID: 1052862028393775849}
   - component: {fileID: 6705280726469434632}
+  - component: {fileID: 3095377225400502927}
   - component: {fileID: 2487824902553358471}
   m_Layer: 0
   m_Name: ChandelierTrap
@@ -105,6 +106,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &3095377225400502927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8713826119778390588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbe9c0556522159479734a19df1247a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!61 &2487824902553358471
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -157,7 +170,7 @@ Transform:
   m_GameObject: {fileID: 8817296360162027636}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1565980595284424075}

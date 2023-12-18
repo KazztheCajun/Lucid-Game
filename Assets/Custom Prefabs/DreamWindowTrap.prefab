@@ -127,6 +127,7 @@ GameObject:
   - component: {fileID: 2820197878958592080}
   - component: {fileID: 969099640094193567}
   - component: {fileID: 6837480011903445118}
+  - component: {fileID: 5434380307284017169}
   - component: {fileID: 2407434594014799345}
   m_Layer: 0
   m_Name: DreamWindowTrap
@@ -166,6 +167,7 @@ MonoBehaviour:
   damageOnCollide: 0
   speed: 0
   physics: {fileID: 0}
+  timeSpentInCurrentState: 0
   playerDetected: 0
 --- !u!50 &6837480011903445118
 Rigidbody2D:
@@ -188,6 +190,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &5434380307284017169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8864157342212826954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbe9c0556522159479734a19df1247a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!61 &2407434594014799345
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -201,7 +215,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.007858157, y: 0.06609392}
+  m_Offset: {x: 0.007858157, y: -1.5581577}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -212,5 +226,5 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3.6169622, y: 3.621913}
+  m_Size: {x: 3.6169622, y: 0.37340987}
   m_EdgeRadius: 0

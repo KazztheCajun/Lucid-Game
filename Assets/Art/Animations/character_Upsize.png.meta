@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f257e6e535e5d684b9ae4ecb5cc2ceef
+guid: b5c92376f26424545b49536ca2b09860
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -67,7 +67,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 16384
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -101,248 +101,257 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TestIdle1
+      name: character_Upsize_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 96
-        width: 32
-        height: 32
+        y: 3072
+        width: 1024
+        height: 1024
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87733cff8a5e2ea4dbe62632bbca10d2
-      internalID: -216641070
+      spriteID: 56fdb01dab123154995155e13e1b5e8b
+      internalID: -1374658707
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TestIdle2
+      name: character_Upsize_1
       rect:
         serializedVersion: 2
-        x: 32
-        y: 96
-        width: 32
-        height: 32
+        x: 1024
+        y: 3072
+        width: 1024
+        height: 1024
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c321fdbc44a58c4aa73f26f2756f8d5
-      internalID: 764496021
+      spriteID: be113cea2a8a63a46898dc6eed1b23c8
+      internalID: -1442430211
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TestWalk1
+      name: character_Upsize_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 64
-        width: 32
-        height: 32
+        x: 2048
+        y: 3072
+        width: 1024
+        height: 1024
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b21d5f7081e794479f6f89e2452a210
-      internalID: -18386892
+      spriteID: c4437cccf17fb8547a197ffdfe218987
+      internalID: 1690658863
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TestWalk2
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 970b565fd370060469cfbddd2e939f2e
-      internalID: -86351948
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TestWalk3
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3455108d9641f8449b131d3faf1eee3e
-      internalID: -721644743
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TestRun1
+      name: character_Upsize_3
       rect:
         serializedVersion: 2
         x: 0
-        y: 32
-        width: 32
-        height: 32
+        y: 2048
+        width: 1024
+        height: 1024
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 059fb776232ebe44bac8631012f0eda0
-      internalID: -987215236
+      spriteID: 093bd57b2268f73428a77c4b2e2ff15d
+      internalID: -869682358
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TestRun2
+      name: character_Upsize_4
       rect:
         serializedVersion: 2
-        x: 32
-        y: 32
-        width: 32
-        height: 32
+        x: 1024
+        y: 2048
+        width: 1024
+        height: 1024
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e52aefe4b1ff7b74f92504fa0bd2fe29
-      internalID: -1538724002
+      spriteID: f89c2f75f643158428e86a00a91263f9
+      internalID: -1675165764
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TestRun3
+      name: character_Upsize_5
       rect:
         serializedVersion: 2
-        x: 64
-        y: 32
-        width: 32
-        height: 32
+        x: 2048
+        y: 2048
+        width: 1024
+        height: 1024
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 33ce77171452c2546b572d3c56249976
-      internalID: 1704509357
+      spriteID: 03f6fb13694f66043b09ec4621589b24
+      internalID: -1008200469
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TestDeath1
+      name: character_Upsize_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d72ebcfc387748245ae3080657a0ec62
+      internalID: -544452546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_Upsize_7
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1024
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84d244891ef066f428a1b4d2f0354d1c
+      internalID: -1986995516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_Upsize_8
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1024
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fdb71f99e444ac418ee4cf908d6b0e5
+      internalID: 1342773428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_Upsize_9
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
-        height: 32
+        width: 1024
+        height: 1024
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a51debc681588314890f5e5068e1476f
-      internalID: 1699352404
+      spriteID: 58db3c098deba4a489b3643b9fa89acc
+      internalID: 148275520
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TestDeath2
+      name: character_Upsize_10
       rect:
         serializedVersion: 2
-        x: 32
+        x: 1024
         y: 0
-        width: 32
-        height: 32
+        width: 1024
+        height: 1024
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cdb7f775f6603334cafd95871f13fa12
-      internalID: 1928502206
+      spriteID: 25f24025e0abc204a840046acc1d9aa3
+      internalID: -933850870
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TestDeath3
+      name: character_Upsize_11
       rect:
         serializedVersion: 2
-        x: 64
+        x: 2048
         y: 0
-        width: 32
-        height: 32
+        width: 1024
+        height: 1024
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2dd46320431cb84eb3bb86e67b90e07
-      internalID: 2114922242
+      spriteID: c391bbd769b5dcf40adf2c648cc5e1e4
+      internalID: -1692526078
       vertices: []
       indices: 
       edges: []
@@ -358,17 +367,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      TestWalk1: -721644743
-      TestDeath3: 2114922242
-      TestDeath1: 2114922242
-      TestWalk2: -987215236
-      TestRun3: 1928502206
-      TestIdle2: -86351948
-      TestRun2: 1699352404
-      TestWalk3: -1538724002
-      TestIdle1: -18386892
-      TestRun1: 1704509357
-      TestDeath2: 1928502206
+      character_Upsize_7: -1986995516
+      character_Upsize_11: -1692526078
+      character_Upsize_4: -1675165764
+      character_Upsize_1: -1442430211
+      character_Upsize_0: -1374658707
+      character_Upsize_5: -1008200469
+      character_Upsize_6: -544452546
+      character_Upsize_10: -933850870
+      character_Upsize_9: 148275520
+      character_Upsize_3: -869682358
+      character_Upsize_2: 1690658863
+      character_Upsize_8: 1342773428
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
