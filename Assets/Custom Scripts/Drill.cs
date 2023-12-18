@@ -19,6 +19,10 @@ public class Drill : Trap
     [SerializeField] private AudioSource preparingSound;
     [SerializeField] private AudioSource movingSound;
 
+    [SerializeField] private Animator animator;
+
+    [SerializeField] private SpriteRenderer spriteRenderer;
+
     // Start is called before the first frame update
     protected override void Start()
     {
@@ -30,6 +34,10 @@ public class Drill : Trap
         if(Random.Range(0,2) == 0){
             fliesUpward = false;
             speed *= -1;
+        }
+        else{
+            //We need to flip the drill.
+            spriteRenderer.flipY = !spriteRenderer.flipY;
         }
 
 
@@ -65,6 +73,7 @@ public class Drill : Trap
                 body.color = Color.blue;
                 preparingSound.time = 2;
                 preparingSound.Play();
+                animator.Play("Drill_Prep");
                 break;
             case "moving":
                 currentState = DrillState.MOVING;
@@ -72,6 +81,7 @@ public class Drill : Trap
                 physics.velocity = Vector2.up * speed;
                 preparingSound.Stop();
                 movingSound.Play();
+                animator.Play("Drill_Move");
                 break;
             default:
                 Debug.Log($"Invalid Drill State Transition: {newState}");
