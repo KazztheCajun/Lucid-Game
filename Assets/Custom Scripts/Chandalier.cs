@@ -24,12 +24,13 @@ public class Chandalier : Trap
     {
         base.Update();
         //If we haven't seen the player yet... check out for the player!
+        Debug.DrawRay(this.transform.position, Vector3.down*100, Color.green);
         if(!playerDetected){
             rayInfo = Physics2D.Raycast(transform.position, Vector2.down, Mathf.Infinity);
             if(rayInfo){
            
                 if(rayInfo.collider != null){
-                    Debug.Log("RAY INFO HAS INFO!");
+                    //Debug.Log("RAY INFO HAS INFO!");
                     if(rayInfo.collider.tag == "Player"){
                         //Debug.DrawRay(this.transform.position, Vector3.down*100, Color.red);
                         Debug.Log("PLAYER DETECTED!!!!!!!!");
