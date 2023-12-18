@@ -34,10 +34,15 @@ public class Player : MonoBehaviour
     private LucidBar lucidBar;
     private float timer;
     private float direction;
+    private bool inNightmare = false;
     
     //Audio
     public AudioSource lucidSFX;
     public AudioSource screamSFX;
+    public AudioSource walkSFX;
+    public AudioSource dreamMusic;
+    public AudioSource nightmareMusic;
+    public AudioSource lucidNightSFX;
 
     // Start is called before the first frame update
     void Start()
@@ -57,6 +62,12 @@ public class Player : MonoBehaviour
         AudioSource[] audioArray = GetComponents<AudioSource>();
         lucidSFX = audioArray[0];
         screamSFX = audioArray[1];
+        walkSFX = audioArray[2];
+        dreamMusic = audioArray[3];
+        nightmareMusic = audioArray[4];
+        lucidNightSFX = audioArray[5];
+        lucidSFX.Stop();
+        lucidNightSFX.mute = true;
     }
 
     // Update is called once per frame
@@ -192,6 +203,16 @@ public class Player : MonoBehaviour
     public void ChangeDirection()
     {
         direction = -1f;
+        GetComponentInChildren<SpriteRenderer>().flipX = true;
+
+        //Dream music: stop
+        dreamMusic.Stop();
+        //Nightmare music: play
+        nightmareMusic.Play();
+        
+        lucidSFX.mute = true;
+        inNightmare = true;
+
     }
 
     private void ChangeState(string newState)
@@ -209,6 +230,9 @@ public class Player : MonoBehaviour
 
                 //Lucid: stop audio
                 lucidSFX.Stop();
+                lucidNightSFX.Stop();
+                //Walk: play audio
+                walkSFX.Play();
                 
                 break;
             case "lucid":
@@ -220,6 +244,15 @@ public class Player : MonoBehaviour
                 //Lucid: play audio
                 lucidSFX.Play();
 
+                //Walk: stop audio
+                walkSFX.Stop();
+
+                if (inNightmare){
+                    lucidNightSFX.mute = false;
+                    lucidNightSFX.Play();
+                }
+                
+
                 break;
             case "dead":
                 state = PlayerState.DEAD;
@@ -229,6 +262,13 @@ public class Player : MonoBehaviour
 
                 //Scream: play audio
                 screamSFX.Play();
+
+                //Nightmare music: stop
+                dreamMusic.Stop();
+                nightmareMusic.Stop();
+
+                //Walk: stop audio
+                walkSFX.Stop();
 
                 break;
             default:
