@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Sergio Scene.unity
     guid: 21a666e7e352b024587547b0e90fcee5
+  - enabled: 1
+    path: Assets/Scenes/MainScene.unity
+    guid: 486dc64abf0a8428780c336e60243969
   m_configObjects: {}

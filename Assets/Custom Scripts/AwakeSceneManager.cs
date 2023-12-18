@@ -6,6 +6,6 @@ using UnityEngine.SceneManagement;
 public class AwakeSceneManager : MonoBehaviour
 {
     public void OnGoToSleepButtonPushed(){
-        SceneManager.LoadScene("AAronScene");
+        SceneManager.LoadScene("MainScene");
     }
 }
