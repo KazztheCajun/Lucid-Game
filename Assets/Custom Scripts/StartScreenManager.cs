@@ -16,6 +16,11 @@ public class StartScreenManager : MonoBehaviour
         SceneManager.LoadScene("CreditsScene");
     }
 
+    public void OnHowToPlayButtonClicked(){
+        Debug.Log("How to Play Button Clicked");
+        SceneManager.LoadScene("HowToPlayScene");
+    }
+
     public void OnQuitButtonClicked(){
         Debug.Log("Quit button clicked!");
         #if UNITY_EDITOR
