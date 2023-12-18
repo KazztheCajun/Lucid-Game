@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class VictoryScreenManager : MonoBehaviour
 {
@@ -22,9 +23,9 @@ public class VictoryScreenManager : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    public void OnBackToStart(){
+        SceneManager.LoadScene("StartScreen");
     }
+
+   
 }
