@@ -7,6 +7,7 @@ public class CameraController : MonoBehaviour
     [Range(0, 100)]
     public float speed;
     public Transform playerTrans;
+    public Vector3 offset;
 
     private float startY;
     private float startZ;
@@ -22,9 +23,14 @@ public class CameraController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 move = Vector3.MoveTowards(this.transform.position, playerTrans.position, speed * Time.deltaTime);
+        //Debug.Log(Vector3.Distance(playerTrans.position, transform.position));
+        Vector3 move = Vector3.MoveTowards(
+            this.transform.position, 
+            playerTrans.position,
+            speed * Time.deltaTime);
         move.z = startZ;
-        //move.y = startY;
-        transform.position = move;
+        //move.y += 1;
+        //transform.position = new Vector3(move.x, offset.y, -10);
+        transform.position = new Vector3(playerTrans.position.x, playerTrans.position.y, startZ);
     }
 }
