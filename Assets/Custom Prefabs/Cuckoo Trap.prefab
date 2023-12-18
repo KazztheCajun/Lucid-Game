@@ -127,6 +127,7 @@ GameObject:
   - component: {fileID: 2820197878958592080}
   - component: {fileID: 969099640094193567}
   - component: {fileID: 6837480011903445118}
+  - component: {fileID: 3058955296349622806}
   - component: {fileID: 2407434594014799345}
   m_Layer: 0
   m_Name: Cuckoo Trap
@@ -166,6 +167,7 @@ MonoBehaviour:
   damageOnCollide: 0
   speed: 0
   physics: {fileID: 0}
+  timeSpentInCurrentState: 0
   playerDetected: 0
 --- !u!50 &6837480011903445118
 Rigidbody2D:
@@ -188,6 +190,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &3058955296349622806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8864157342212826954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbe9c0556522159479734a19df1247a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!61 &2407434594014799345
 BoxCollider2D:
   m_ObjectHideFlags: 0

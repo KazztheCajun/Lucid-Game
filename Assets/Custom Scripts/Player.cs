@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -23,6 +24,7 @@ public class Player : MonoBehaviour
     public GameObject attackPrefab;
     public Transform attackSpawn;
     public GameObject gameOverScreen;
+    public Animator animations;
 
 
     // Private Variables
@@ -35,6 +37,7 @@ public class Player : MonoBehaviour
     private float timer;
     private float direction;
     private bool inNightmare = false;
+    
     
     //Audio
     public AudioSource lucidSFX;
@@ -118,12 +121,7 @@ public class Player : MonoBehaviour
     {
         //Debug.Log(Vector3.Distance(transform.position, target.position));
         //Debug.Log(physics.velocity);
-        if (Vector3.Distance(transform.position, target.position) <= .2)
-        {
-            ChangeState("idle");
-            physics.velocity = Vector2.zero;
-            return;
-        }
+        CheckVictory();
 
         //Vector3 vel = Vector3.right * speed * Time.fixedDeltaTime;
         //Vector3 pos = Vector3.MoveTowards(transform.position, target.position, vel);
@@ -133,6 +131,8 @@ public class Player : MonoBehaviour
 
     private void LucidControl()
     {
+        CheckVictory();
+
         if(Input.GetButtonDown("ToggleLucid"))
         {
             ChangeState("dream");
@@ -200,6 +200,16 @@ public class Player : MonoBehaviour
 
     }
 
+    public void CheckVictory()
+    {
+        if (Vector3.Distance(transform.position, target.position) <= 1)
+        {
+            ChangeState("idle");
+            physics.velocity = Vector2.zero;
+            return;
+        }
+    }
+
     public void ChangeDirection()
     {
         direction = -1f;
@@ -221,11 +231,13 @@ public class Player : MonoBehaviour
         {
             case "idle":
                 state = PlayerState.IDLE;
+                SceneManager.LoadScene("VictoryScreen");
                 break;
             case "dream":
                 state = PlayerState.DREAM;
                 isLucid = false;
                 physics.gravityScale = 3;
+                animations.Play("Player_Walk_Test");
                 lucidBar.setChangeRate(lucidFill);
 
                 //Lucid: stop audio
@@ -240,6 +252,7 @@ public class Player : MonoBehaviour
                 isLucid = true;
                 physics.gravityScale = 0;
                 lucidBar.setChangeRate(-lucidDrain);
+                animations.Play("Player_Idle_Test");
 
                 //Lucid: play audio
                 lucidSFX.Play();
@@ -258,10 +271,10 @@ public class Player : MonoBehaviour
                 state = PlayerState.DEAD;
                 isLucid = false;
                 Stop();
-                gameOverScreen.SetActive(true);
+                animations.Play("Player_Death_Test");
+                //gameOverScreen.SetActive(true);
 
-                //Scream: play audio
-                screamSFX.Play();
+                
 
                 //Nightmare music: stop
                 dreamMusic.Stop();
@@ -270,11 +283,26 @@ public class Player : MonoBehaviour
                 //Walk: stop audio
                 walkSFX.Stop();
 
+                //Scream: play audio
+                //screamSFX.Play();
+                StartCoroutine(DeathScream());
+
                 break;
             default:
                 Debug.Log($"Invalid Player State Transition: {newState}");
                 break;
         }
         Debug.Log($"Player state is now: {state}");
+    }
+
+    IEnumerator DeathScream()
+    {
+        screamSFX.Play();
+        while(screamSFX.isPlaying)
+        {
+            yield return new WaitForSeconds(.1f);
+        }
+
+        SceneManager.LoadScene("AwakeScene");
     }
 }

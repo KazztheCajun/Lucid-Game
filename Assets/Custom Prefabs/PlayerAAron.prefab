@@ -188,12 +188,14 @@ MonoBehaviour:
   attackPrefab: {fileID: 2080615950153258507, guid: 7ec04ecb060644245b28265a26e90ea7, type: 3}
   attackSpawn: {fileID: 5597646820098202588}
   gameOverScreen: {fileID: 0}
+  animations: {fileID: 1636443976753830386}
   target: {fileID: 0}
   lucidSFX: {fileID: 220697298}
   screamSFX: {fileID: 220697298}
   walkSFX: {fileID: 220697298}
   dreamMusic: {fileID: 220697298}
   nightmareMusic: {fileID: 220697298}
+  lucidNightSFX: {fileID: 0}
 --- !u!61 &5597646820097974841
 BoxCollider2D:
   m_ObjectHideFlags: 0

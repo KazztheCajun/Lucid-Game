@@ -23,4 +23,12 @@ public class KillCollider : MonoBehaviour
             other.gameObject.GetComponent<Player>().IsDead();
         }
     }
+
+    void OnCollisionEnter2D(Collision2D other)
+    {
+        if(other.gameObject.tag == "Player")
+        {
+            other.gameObject.GetComponent<Player>().IsDead();
+        }
+    }
 }
