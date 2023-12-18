@@ -1,13 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+
+    public float totalAmountOfLucidUsed;
     
     void Start()
     {
         DontDestroyOnLoad(this);
+        totalAmountOfLucidUsed = 238f;
     }
 
     // Update is called once per frame
@@ -19,6 +23,9 @@ public class GameManager : MonoBehaviour
             UnityEditor.EditorApplication.isPlaying = false;
             #endif
             Application.Quit();
+        }
+        if(Input.GetKeyDown(KeyCode.V)){
+            SceneManager.LoadScene("VictoryScreen");
         }
     }
 }
