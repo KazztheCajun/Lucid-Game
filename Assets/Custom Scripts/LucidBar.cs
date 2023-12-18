@@ -5,6 +5,7 @@ using UnityEngine;
 public class LucidBar : Bar
 {
     [SerializeField] private float lucidityChangeRate; // percent to drain per second.
+    private GameObject gameManager;
 
     // Start is called before the first frame update
     public override void Start()
@@ -12,6 +13,7 @@ public class LucidBar : Bar
         base.Start();
         lucidityChangeRate = -1;
         barFillVisual = GameObject.Find("LucidBarFill");
+        gameManager = GameObject.Find("GameManager");
     }
 
     // Update is called once per frame
@@ -23,6 +25,10 @@ public class LucidBar : Bar
 
         //Actually update the current lucidity.
         adjustCurrentBarValue(amountToDrain);
+
+        if(gameManager && amountToDrain <= 0){
+            gameManager.GetComponent<GameManager>().totalAmountOfLucidUsed += amountToDrain;
+        }
 
     }
 

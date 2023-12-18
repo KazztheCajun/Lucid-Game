@@ -11,7 +11,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         DontDestroyOnLoad(this);
-        totalAmountOfLucidUsed = 238f;
+        totalAmountOfLucidUsed = 0f;
     }
 
     // Update is called once per frame

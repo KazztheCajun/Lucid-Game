@@ -1,11 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class VictoryScreenManager : MonoBehaviour
 {
 
     GameObject gameManagerReference;
+    public TextMeshProUGUI text;
+
 
     // Start is called before the first frame update
     void Start()
@@ -13,7 +16,9 @@ public class VictoryScreenManager : MonoBehaviour
         gameManagerReference = GameObject.Find("GameManager");
         Debug.Log("I'm in the victory screen!");
         if(gameManagerReference){
-            Debug.Log("total amount of lucid used is " + gameManagerReference.GetComponent<GameManager>().totalAmountOfLucidUsed);
+            float totalLucid = gameManagerReference.GetComponent<GameManager>().totalAmountOfLucidUsed;
+            totalLucid *= -1f; //turn it into a positive number.
+            text.text = "Total amount of lucid used is " + totalLucid;
         }
     }
 
