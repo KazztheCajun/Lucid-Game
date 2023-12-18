@@ -35,6 +35,9 @@ public class Player : MonoBehaviour
     private float timer;
     private float direction;
     
+    //Audio
+    public AudioSource lucidSFX;
+    public AudioSource screamSFX;
 
     // Start is called before the first frame update
     void Start()
@@ -49,6 +52,11 @@ public class Player : MonoBehaviour
         fly = Vector2.zero;
         direction = 1f;
         ChangeState("dream");
+
+        //Audio
+        AudioSource[] audioArray = GetComponents<AudioSource>();
+        lucidSFX = audioArray[0];
+        screamSFX = audioArray[1];
     }
 
     // Update is called once per frame
@@ -198,18 +206,30 @@ public class Player : MonoBehaviour
                 isLucid = false;
                 physics.gravityScale = 3;
                 lucidBar.setChangeRate(lucidFill);
+
+                //Lucid: stop audio
+                lucidSFX.Stop();
+                
                 break;
             case "lucid":
                 state = PlayerState.LUCID;
                 isLucid = true;
                 physics.gravityScale = 0;
                 lucidBar.setChangeRate(-lucidDrain);
+
+                //Lucid: play audio
+                lucidSFX.Play();
+
                 break;
             case "dead":
                 state = PlayerState.DEAD;
                 isLucid = false;
                 Stop();
                 gameOverScreen.SetActive(true);
+
+                //Scream: play audio
+                screamSFX.Play();
+
                 break;
             default:
                 Debug.Log($"Invalid Player State Transition: {newState}");
