@@ -2,13 +2,43 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class StartScreenManager : MonoBehaviour
 {
  
+    [SerializeField] private GameObject megaParticleSystem;
+    [SerializeField] private Image fadeToBlack;
+    private float timeBeforeTransition;
+    private float fadeRate;
+
+    private bool beginTransition = false;
+
+    public void Start(){
+        beginTransition = false;
+        fadeRate = 0.25f;
+        timeBeforeTransition = 4f;
+    }
+
+    public void Update(){
+        if(beginTransition){
+            timeBeforeTransition -= Time.deltaTime;
+            Color newColor = fadeToBlack.color;
+            newColor.a += fadeRate * Time.deltaTime;
+            fadeToBlack.color = newColor;
+            if(timeBeforeTransition <= 0){
+                SceneManager.LoadScene("MainScene");
+            }
+        }
+    }
+
+
     public void OnStartGameButtonClicked(){
         Debug.Log("Start button clicked!");
-        SceneManager.LoadScene("MainScene");
+        megaParticleSystem.SetActive(true);
+        fadeToBlack.gameObject.SetActive(true);
+        beginTransition = true;
+       // SceneManager.LoadScene("MainScene");
     }
 
     public void OnCreditsButtonClicked(){

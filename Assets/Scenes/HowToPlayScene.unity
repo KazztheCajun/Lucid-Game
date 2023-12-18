@@ -302,10 +302,10 @@ RectTransform:
   m_Father: {fileID: 973400475}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 200, y: 50}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1171894443
 MonoBehaviour:
@@ -327,7 +327,32 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: This Is How You Play The Game
+  m_text: 'In this game, you are watching yourself have a dream, navigating the deadly
+    traps and enemies of your inner mind. In true dream fashion, you can do nothing
+    but watch yourself overcome (or succumb to) these myriad dangers.
+
+
+    If the
+    threats ever become too great, you can turn your dream into a Lucid Dream by
+    hitting the ''e'' key, giving you full control.
+
+
+    This will allow you to
+    fly with your arrow keys.
+
+
+    However, remain in a lucid state for too long,
+    and you''ll realize you are dreaming, waking you up immedietely, and ending your
+    journey. You''ll need to strategically decide when to become lucid and when to
+    relinquish control (by hitting ''e'' again) to reach the end seek.
+
+
+    Balance
+    your lucidity and delve as deep as you can into your subconcious!
+
+
+    Sweet
+    dreams...'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -354,15 +379,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 48
+  m_fontSizeBase: 48
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -507,9 +532,23 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 4458186044995343704, guid: 58b7d4d64f4574c7489f6d220c8ac4d4, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 751415246, guid: fa99005a998304caaa90d0b28ef6da46, type: 3}
+    - target: {fileID: 5169466763565784292, guid: 58b7d4d64f4574c7489f6d220c8ac4d4, type: 3}
+      propertyPath: m_text
+      value: 'Back
+
+'
+      objectReference: {fileID: 0}
     - target: {fileID: 5288701340219898297, guid: 58b7d4d64f4574c7489f6d220c8ac4d4, type: 3}
       propertyPath: m_Name
       value: MenuButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 5511923299577651792, guid: 58b7d4d64f4574c7489f6d220c8ac4d4, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -52
       objectReference: {fileID: 0}
     - target: {fileID: 7450709605669060179, guid: 58b7d4d64f4574c7489f6d220c8ac4d4, type: 3}
       propertyPath: m_Pivot.x
@@ -581,7 +620,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7450709605669060179, guid: 58b7d4d64f4574c7489f6d220c8ac4d4, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 46
       objectReference: {fileID: 0}
     - target: {fileID: 7450709605669060179, guid: 58b7d4d64f4574c7489f6d220c8ac4d4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -638,7 +677,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
