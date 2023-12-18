@@ -11,8 +11,6 @@ public class Drill : Trap
 
     [SerializeField] private SpriteRenderer body;
 
-    [SerializeField] private bool fliesUpward;
-
     [SerializeField] private float timeToSpendInPreparingState;
     [SerializeField] private float timeToSpendInMovingState;
 
@@ -29,10 +27,8 @@ public class Drill : Trap
         base.Start();
 
         //Figure out if this is an up drill or a down drill.
-        fliesUpward = true;
         speed = 5;
         if(Random.Range(0,2) == 0){
-            fliesUpward = false;
             speed *= -1;
         }
         else{

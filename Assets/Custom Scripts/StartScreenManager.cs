@@ -8,7 +8,7 @@ public class StartScreenManager : MonoBehaviour
  
     public void OnStartGameButtonClicked(){
         Debug.Log("Start button clicked!");
-        SceneManager.LoadScene("AwakeScene");
+        SceneManager.LoadScene("MainScene");
     }
 
     public void OnCreditsButtonClicked(){

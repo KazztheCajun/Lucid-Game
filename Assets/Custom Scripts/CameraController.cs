@@ -24,7 +24,7 @@ public class CameraController : MonoBehaviour
     {
         Vector3 move = Vector3.MoveTowards(this.transform.position, playerTrans.position, speed * Time.deltaTime);
         move.z = startZ;
-        move.y = startY;
+        //move.y = startY;
         transform.position = move;
     }
 }

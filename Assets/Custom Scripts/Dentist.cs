@@ -20,7 +20,6 @@ public class Dentist : Enemy
     [SerializeField] private int numDrillsToSummon;
     [SerializeField] private int minDrillsToSummon;
     [SerializeField] private int maxDrillsToSummon;
-    [SerializeField] private int currentDrillsSummoned;
     [SerializeField] private float drillSummonCooldown;
     [SerializeField] private float timeRemainingUntilNextDrill;
 
@@ -89,6 +88,8 @@ public class Dentist : Enemy
     }
 
     private void ChangeToRandomDifferentState(){
+
+        /*
         string[] dentistStates = System.Enum.GetNames(typeof(DentistState));
         int numberOfDentistStates = dentistStates.Length;
 
@@ -102,6 +103,15 @@ public class Dentist : Enemy
         }
         ChangeState(newState.ToLower());
         //Debug.Log("current state is " + currentState + " new state is " + newState);
+        */
+
+        //New functionality! Just switch between laughing and drills.
+        if(currentState == DentistState.LAUGHING){
+            ChangeState(DentistState.SUMMONING);
+        }
+        else{
+            ChangeState(DentistState.LAUGHING);
+        }
         
     }
 
@@ -125,7 +135,6 @@ public class Dentist : Enemy
                 body.color = Color.gray;
                 numDrillsToSummon = Random.Range(minDrillsToSummon, maxDrillsToSummon);
                 Debug.Log("Summoning " + numDrillsToSummon + " drills");
-                currentDrillsSummoned = 0;
                 timeRemainingUntilNextDrill = drillSummonCooldown;
                 currentDistanceFromDentist = 3f;
                 animator.Play("Dentist2Summon");

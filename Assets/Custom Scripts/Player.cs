@@ -14,6 +14,10 @@ public class Player : MonoBehaviour
     public float jump;
     [Range(0, 10)]
     public float attackCooldown;
+    [Range(0, 20)]
+    public float lucidDrain;
+    [Range(0, 20)]
+    public float lucidFill;
     [HideInInspector]
     public bool isLucid;
     public GameObject attackPrefab;
@@ -29,6 +33,7 @@ public class Player : MonoBehaviour
     private Vector3 fly;
     private LucidBar lucidBar;
     private float timer;
+    private float direction;
     
 
     // Start is called before the first frame update
@@ -42,6 +47,7 @@ public class Player : MonoBehaviour
         lucidBar = GameObject.Find("LucidBar").GetComponent<LucidBar>();
         timer = attackCooldown;
         fly = Vector2.zero;
+        direction = 1f;
         ChangeState("dream");
     }
 
@@ -151,7 +157,7 @@ public class Player : MonoBehaviour
 
     public void MaintainSpeed()
     {
-        physics.velocity = new Vector2(speed, physics.velocity.y);
+        physics.velocity = new Vector2(speed * direction, physics.velocity.y);
     }
 
     public void Stop()
@@ -175,6 +181,11 @@ public class Player : MonoBehaviour
 
     }
 
+    public void ChangeDirection()
+    {
+        direction = -1f;
+    }
+
     private void ChangeState(string newState)
     {
         switch(newState)
@@ -186,13 +197,13 @@ public class Player : MonoBehaviour
                 state = PlayerState.DREAM;
                 isLucid = false;
                 physics.gravityScale = 3;
-                lucidBar.setChangeRate(3);
+                lucidBar.setChangeRate(lucidFill);
                 break;
             case "lucid":
                 state = PlayerState.LUCID;
                 isLucid = true;
                 physics.gravityScale = 0;
-                lucidBar.setChangeRate(-10);
+                lucidBar.setChangeRate(-lucidDrain);
                 break;
             case "dead":
                 state = PlayerState.DEAD;

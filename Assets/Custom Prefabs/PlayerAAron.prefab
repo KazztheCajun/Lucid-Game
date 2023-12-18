@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5597646820097974847}
   - component: {fileID: 5597646820097974846}
   - component: {fileID: 5597646820097974841}
+  - component: {fileID: 3057718218929939025}
   m_Layer: 0
   m_Name: PlayerAAron
   m_TagString: Player
@@ -74,9 +75,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: -1080472937
+  m_SortingLayer: 2
+  m_SortingOrder: 4
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -124,6 +125,8 @@ MonoBehaviour:
   speed: 3
   jump: 20
   attackCooldown: 1
+  lucidDrain: 7
+  lucidFill: 7
   isLucid: 0
   attackPrefab: {fileID: 2080615950153258507, guid: 7ec04ecb060644245b28265a26e90ea7, type: 3}
   attackSpawn: {fileID: 5597646820098202588}
@@ -155,6 +158,26 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!95 &3057718218929939025
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5597646820097974842}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ae96a3e1d4f1ab4458a54b2c9947ca6b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &5597646820098202591
 GameObject:
   m_ObjectHideFlags: 0
