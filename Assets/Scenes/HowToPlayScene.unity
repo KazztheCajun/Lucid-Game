@@ -327,32 +327,31 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'In this game, you are watching yourself have a dream, navigating the deadly
-    traps and enemies of your inner mind. In true dream fashion, you can do nothing
-    but watch yourself overcome (or succumb to) these myriad dangers.
+  m_text: 'In this game, you are watching yourself dream, navigating the deadly traps
+    and enemies of your inner mind. In true dream fashion, you can do nothing but
+    watch yourself overcome (or succumb to) these myriad dangers.
 
 
-    If the
-    threats ever become too great, you can turn your dream into a Lucid Dream by
-    hitting the ''e'' key, giving you full control.
+    If the threats
+    ever become too great, you can turn your dream into a Lucid Dream by hitting
+    the ''e'' key, giving you full control.
 
 
-    This will allow you to
-    fly with your arrow keys.
+    This will allow you to fly with
+    your arrow keys.
 
 
-    However, remain in a lucid state for too long,
-    and you''ll realize you are dreaming, waking you up immedietely, and ending your
-    journey. You''ll need to strategically decide when to become lucid and when to
-    relinquish control (by hitting ''e'' again) to reach the end seek.
+    However, remain in a lucid state for too long, and you''ll
+    realize you are dreaming, waking you up immedietely and ending your journey.
+    You''ll need to strategically decide when to become lucid and when to relinquish
+    control (by hitting ''e'' again) to reach the end seek.
 
 
-    Balance
-    your lucidity and delve as deep as you can into your subconcious!
+    Balance your lucidity
+    and delve as deep as you can into your subconscious!
 
 
-    Sweet
-    dreams...'
+    Sweet dreams...'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
